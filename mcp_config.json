@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "ros2-control-diag": {
+      "command": "/home/namnc/.gemini/config/plugins/robotics/.venv/bin/python3",
+      "args": [
+        "/home/namnc/.gemini/config/plugins/robotics/mcp_servers/ros2_control_diag_mcp.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    },
+    "can-canopen-diag": {
+      "command": "/home/namnc/.gemini/config/plugins/robotics/.venv/bin/python3",
+      "args": [
+        "/home/namnc/.gemini/config/plugins/robotics/mcp_servers/can_canopen_mcp.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    },
+    "hw-linux-serial-diag": {
+      "command": "/home/namnc/.gemini/config/plugins/robotics/.venv/bin/python3",
+      "args": [
+        "/home/namnc/.gemini/config/plugins/robotics/mcp_servers/hw_linux_serial_mcp.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    },
+    "gazebo-sim-control": {
+      "command": "/home/namnc/.gemini/config/plugins/robotics/.venv/bin/python3",
+      "args": [
+        "/home/namnc/.gemini/config/plugins/robotics/mcp_servers/gazebo_sim_mcp.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}
